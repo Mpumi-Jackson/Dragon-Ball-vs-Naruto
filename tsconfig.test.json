@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "outDir": "./.test-build",
+    "noEmit": false,
+    "declaration": false
+  },
+  "include": [
+    "src/data/characters.ts",
+    "src/data/transformations.ts",
+    "src/data/battleProfiles.ts",
+    "src/engine/battleEngine.ts"
+  ]
+}
